@@ -25,8 +25,8 @@ namespace ZapFood.WinForm
         }
         public static string AddressApiIFood
         {
-            get { return "https://merchant-api.ifood.com.br"; }
-            //get { return "http://localhost:56435"; }
+            //get { return "https://merchant-api.ifood.com.br"; }
+            get { return "http://localhost:56435"; }
             set { }
         }
         public static Restaurante Restaurante;

@@ -11,10 +11,10 @@ namespace ZapFood.WinForm.Model
     {
         public RootModel()
         {
-            results = new List<PedidoMeioMeioComplementos>();
+            results = new List<complementosMeioMeio>();
         }
         public int totalPage { get; set; }
-        public List<PedidoMeioMeioComplementos> results { get; set; }
+        public List<complementosMeioMeio> results { get; set; }
     }
 
     public class teste

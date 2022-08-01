@@ -360,7 +360,7 @@ namespace ZapFood.WinForm.Model
         public decimal discount { get; set; }
         public decimal addition { get; set; }
         public string externalCode { get; set; }
-        public PedidoMeioMeioComplementos[] complementosMeioMeio { get; set; }
+        public List<complementosMeioMeio> complementosMeioMeio { get; set; }
     }
     public class Benefit
     {
